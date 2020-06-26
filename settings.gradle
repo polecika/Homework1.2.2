@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Photo1.2.2"

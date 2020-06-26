@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Просмотр фото</string>
+    <string name="button_back">Назад</string>
+    <string name="button_next">Вперед</string>
+
+</resources>
