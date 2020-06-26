@@ -34,10 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.photo5,
         };
 
-        int randomInt =  random.nextInt(4);
-        photo.setImageResource(imgArray[randomInt]);
-        randomInt++;
-        imageLink.setText("drawable/photo" + (randomInt) + ".jpg");
+        int randomIntPhoto =  random.nextInt(4);
+        int randomIntLink =  random.nextInt(99) + 1;
+        photo.setImageResource(imgArray[randomIntPhoto]);
+        randomIntPhoto++;
+        imageLink.setText("drawable/photo" + randomIntLink  + ".jpg");
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
